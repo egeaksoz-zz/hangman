@@ -94,7 +94,8 @@ class Dashboard extends React.Component {
         >
           {this.state.buttonText}
         </button>
-        <Result count={this.state.mistakeCount} win={this.state.win} />
+        <p></p>
+        <Result count={this.state.mistakeCount} win={this.state.win} word={this.state.word} />
         <Letter
           word={this.state.word}
           correctLetter={this.state.correctLetter}
